@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9785E65B-A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{49F33DEC-056B-4BBF-85D8-2C2CF584686D}"
 	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-publish.yml = azure-pipelines-publish.yml
 		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection
