@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18F9CF62-29E7-40D8-9DD4-975173114D7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9785E65B-AD20-4743-A258-82AB8A7D3D8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{49F33DEC-056B-4BBF-85D8-2C2CF584686D}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vicgital.Core.Logging", "src\Vicgital.Core.Logging\Vicgital.Core.Logging.csproj", "{C8835D8E-0E44-4E22-8090-228646044D46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8835D8E-0E44-4E22-8090-228646044D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8835D8E-0E44-4E22-8090-228646044D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8835D8E-0E44-4E22-8090-228646044D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8835D8E-0E44-4E22-8090-228646044D46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8835D8E-0E44-4E22-8090-228646044D46} = {18F9CF62-29E7-40D8-9DD4-975173114D7E}
+	EndGlobalSection
+EndGlobal
