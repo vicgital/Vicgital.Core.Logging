@@ -36,5 +36,5 @@ steps:
   inputs:
     command: push
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
-    publishVstsFeed: 'vicgital'
+    publishVstsFeed: 'shared'
     allowPackageConflicts: true
