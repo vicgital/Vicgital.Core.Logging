@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<AssemblyName>Vicgital.Core.Logging</AssemblyName>
+		<PackageId>Vicgital.Core.Logging</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Vicgital</Authors>
+		<RepositoryUrl>https://github.com/vicgital/Vicgital.Core.Logging</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageDescription>.NET shared library that encapsulates logging frameworks like Serilog, NLog, or Microsoft.Extensions.Logging</PackageDescription>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.10" />
+		<PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+		<PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
+		<PackageReference Include="Serilog.Enrichers.Process" Version="3.0.0" />
+		<PackageReference Include="Serilog.Enrichers.Thread" Version="4.0.0" />
+		<PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="5.0.1" />
+	</ItemGroup>
+
+</Project>
