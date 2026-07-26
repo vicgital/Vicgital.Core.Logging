@@ -21,7 +21,7 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Pack
-        run: dotnet pack src/Vicgital.Infrastructure.Logging/Vicgital.Infrastructure.Logging.csproj -c Release -o ./nupkg
+        run: dotnet pack src/Vicgital.Core.Logging/Vicgital.Core.Logging.csproj -c Release -o ./nupkg
 
       - name: Push to GitHub Packages
         run: dotnet nuget push "./nupkg/*.nupkg" --source "https://nuget.pkg.github.com/vicgital/index.json" --api-key ${{ secrets.GIT_PACKAGES_PAT }} --skip-duplicate
