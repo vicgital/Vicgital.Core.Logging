@@ -119,3 +119,5 @@ src/Vicgital.Core.Logging/
 - `Serilog.Enrichers.Thread`
 - `Serilog.Sinks.ApplicationInsights`
 - `Microsoft.Extensions.Configuration`
+
+
