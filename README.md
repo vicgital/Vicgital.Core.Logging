@@ -28,8 +28,6 @@ This package is published to a private GitHub Packages feed. A `nuget.config` is
 </packageSources>
 ```
 
-Authentication to the GitHub feed uses a read-only personal access token supplied via the `GIT_PACKAGES_READ_ONLY_PAT` environment variable.
-
 Then add the package reference:
 
 ```bash
